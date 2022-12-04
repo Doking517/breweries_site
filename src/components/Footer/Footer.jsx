@@ -6,9 +6,15 @@ const Footer = () => {
 			<h1 className="font-extrabold font-poppins-extrabold text-3xl hover:text-[#d67f39] cursor-pointer duration-500">
 				<a href="/">BCro's</a>
 			</h1>
-			<p className='sm:text-sm'>
+			<p className="sm:text-sm text-sm ">
 				designed and coded by:{' '}
-				<a href="https://github.com/Doking517/breweries_site">@Doking517</a>
+				<a
+                    href="https://github.com/Doking517/breweries_site"
+                    target="_blank"
+					className="hover:text-[#d67f39] cursor-pointer duration-500"
+				>
+					@Doking517
+				</a>
 			</p>
 		</div>
 	);
