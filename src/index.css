@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+	font-family: 'Poppins-ExtraBold';
+	src: url('../src/assets/fonts/Poppins-ExtraBold.ttf');
+}
+,
+@font-face {
+	font-family: 'Poppins-Regular';
+	src: url('../src/assets/fonts/Poppins-Regular.ttf');
+}

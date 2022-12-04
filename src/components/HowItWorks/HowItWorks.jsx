@@ -1,9 +1,21 @@
-import React from 'react'
+import React from 'react';
 
-const HowItWorks = () => {
-  return (
-    <div>HowItWorks</div>
-  )
-}
+const HowItWorks = ({ imgPath,textContent }) => {
+	return (
+		
+			<section className="block">
+				<div>
+					<img
+						src={imgPath}
+						alt="image"
+					/>
+					<p>
+						{textContent}
+					</p>
+				</div>
+			</section>
+		
+	);
+};
 
-export default HowItWorks
+export default HowItWorks;
