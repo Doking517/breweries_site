@@ -2,7 +2,7 @@ import React from 'react';
 
 const GlobalTitle = ({ titleText }) => {
 	return (
-		<div className="flex justify-center items-center mt-[10%]">
+		<div className="flex justify-center items-center mt-[10%] pb-[5%] ">
 			<h1 className="text-2xl sm:text-6xl font-extrabold font-poppins-extrabold">
 				{titleText}
 			</h1>
