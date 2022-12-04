@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './components/Footer/Footer';
 import GlobalTitle from './components/globalTitle/gobalTitle';
 import Hero from './components/Hero/Hero';
 import HowItWorks from './components/HowItWorks/HowItWorks';
@@ -7,7 +8,7 @@ import OnlineOrder from './components/OnlineOrder/OnlineOrder';
 
 const App = () => {
 	return (
-		<div className="bg-[#1e1e1e] p-10 sm:p-10 w-[100vw] self-center text-white">
+		<div className="bg-[#1e1e1e] p-10 sm:p-10 self-center text-white">
 			<Navbar />
 
 			<Hero
@@ -51,6 +52,7 @@ const App = () => {
             Eum debitis ea iste officia veniam maxime dolorem deleniti. Distinctio voluptatum itaque architecto unde voluptates iste. Quis magni voluptatum ipsum ab labore, explicabo facilis nam corrupti, veniam cupiditate aliquam id.
             Nesciunt tempore ea incidunt similique totam eum pariatur nisi, sapiente adipisci voluptatem vel, autem enim aliquam voluptatibus omnis porro quia sequi culpa quos quod mollitia nulla. Tempore repellendus similique sunt"
 			/>
+			<Footer />
 		</div>
 	);
 };

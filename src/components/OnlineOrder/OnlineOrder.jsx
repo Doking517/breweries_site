@@ -2,8 +2,8 @@ import React from 'react';
 
 const OnlineOrder = ({ imagePath, titleTitle, paragraphText, buttonText }) => {
 	return (
-		<div className="sm:flex sm:items-center sm:justify-center sm:gap-[5%] flex-row gap-[5%] mt-[5%] sm:px-10">
-			<section className="sm:w-[45%] sm:h-[80%]">
+		<div className=" sm:flex sm:items-center sm:justify-center sm:gap-[5%] flex-row gap-[5%] mt-[5%] sm:px-[8rem]">
+			<section className="sm:w-[55%] sm:h-[80%]">
 				<h1 className="font-poppins-extrabold text-xl sm:text-4xl font-extrabold">
 					{titleTitle}
 				</h1>
@@ -14,7 +14,7 @@ const OnlineOrder = ({ imagePath, titleTitle, paragraphText, buttonText }) => {
 					{buttonText}
 				</button>
 			</section>
-			<section className="mt-[15px]">
+			<section className="sm:flex sm:justify-center sm:items-center mt-[20px]">
 				<img
 					src={imagePath}
 					alt="image"

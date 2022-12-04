@@ -23,7 +23,7 @@ const Navbar = () => {
 	return (
 		<div className="flex items-center justify-between sm:justify-evenly  sm:gap-[45%] text-white ">
 			<h1 className="font-extrabold font-poppins-extrabold text-3xl hover:text-[#d67f39] cursor-pointer duration-500">
-				BCro's
+				<a href="/">BCro's</a>
 			</h1>
 			{/* responsive menu icons start section */}
 			<span
