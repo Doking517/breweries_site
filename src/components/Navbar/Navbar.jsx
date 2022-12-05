@@ -27,7 +27,7 @@ const Navbar = () => {
 			</h1>
 			{/* responsive menu icons start section */}
 			<span
-				className="block sm:hidden cursor-pointer z-[3] absolute ml-[75vw]"
+				className="block sm:hidden cursor-pointer z-[3] absolute ml-[70vw]"
 				id="menuIcon"
 				name="menuIcon"
 				onClick={() => responsiveMenuHandler()}
@@ -49,7 +49,7 @@ const Navbar = () => {
 			</span>
 
 			<span
-				className="hidden sm:hidden cursor-pointer z-[3] absolute ml-[75vw] "
+				className="hidden sm:hidden cursor-pointer z-[3] absolute ml-[70vw]"
 				id="closeIcon"
 				onClick={() => closeMenuHandler()}
 			>
