@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 	const responsiveMenuHandler = () => {
@@ -21,8 +22,8 @@ const Navbar = () => {
 	};
 
 	return (
-		<div className="flex items-center justify-between sm:justify-evenly  sm:gap-[45%] text-white ">
-			<h1 className="font-extrabold font-poppins-extrabold text-3xl hover:text-[#d67f39] cursor-pointer duration-500">
+		<div className="flex items-center justify-between sm:justify-evenly gap-[45%] sm:gap-[45%] text-white ">
+			<h1 className="font-extrabold font-poppins-extrabold text-3xl text-[#d67f39] hover:text-white cursor-pointer duration-500">
 				<a href="/">BCro's</a>
 			</h1>
 			{/* responsive menu icons start section */}
@@ -76,36 +77,36 @@ const Navbar = () => {
 				name="navmenu"
 			>
 				<li className="my-2 sm:my-0">
-					<a
-						href="/"
+					<Link
+						to="/"
 						className="hover:text-[#d67f39] duration-500"
 					>
 						Home
-					</a>
+					</Link>
 				</li>
 				<li className="my-2 sm:my-0">
-					<a
-						href="/order"
+					<Link
+						to="/order"
 						className="hover:text-[#d67f39] duration-500"
 					>
 						Order
-					</a>
+					</Link>
 				</li>
 				<li className="my-2 sm:my-0">
-					<a
-						href="/compagny"
+					<Link
+						to="/compagny"
 						className="hover:text-[#d67f39] duration-500"
 					>
 						Compagny
-					</a>
+					</Link>
 				</li>
 				<li className="my-2 sm:my-0">
-					<a
-						href="/contact"
+					<Link
+						to="/contact"
 						className="hover:text-[#d67f39] duration-500"
 					>
 						Contact
-					</a>
+					</Link>
 				</li>
 			</ul>
 		</div>

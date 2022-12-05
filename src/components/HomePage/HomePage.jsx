@@ -44,7 +44,7 @@ const Home = () => {
 			<OnlineOrder
 				buttonText="See Our FAQ"
 				imagePath="../src/assets/img/portrait-fat-bearded-male-holds-beer-bottles_613910-9268.jpg"
-				titleTitle="You will have the Embaras of choice regarding the quality of our products, all varieties are excellent for all occasions!"
+				titleTitle="You will have the  Embaras of choice regarding the quality of our products, all varieties are excellent for all occasions!"
 				paragraphText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt cumque eius eligendi officia ipsam, doloribus aperiam autem! Consectetur aperiam minima ut porro excepturi iure, voluptatem modi rerum nesciunt quam sequi?
            	 Eum debitis ea iste officia veniam maxime dolorem deleniti. Distinctio voluptatum itaque architecto unde voluptates iste. Quis magni voluptatum ipsum ab labore, explicabo facilis nam corrupti, veniam cupiditate aliquam id.
             	Nesciunt tempore ea incidunt similique totam eum pariatur nisi, sapiente adipisci voluptatem vel, autem enim aliquam voluptatibus omnis porro quia sequi culpa quos quod mollitia nulla. Tempore repellendus similique sunt"

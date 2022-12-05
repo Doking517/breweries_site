@@ -4,16 +4,21 @@ import HomePage from './components/HomePage/HomePage';
 import Footer from './components/Footer/Footer';
 
 import Navbar from './components/Navbar/Navbar';
+import Order from './components/Order/Order';
 
 const App = () => {
 	return (
-		<div className="bg-[#1e1e1e] p-10 sm:p-10 self-center text-white">
+		<div className="bg-[#1e1e1e] p-10 sm:p-10  flex flex-col justify-center sm:flex sm:flex-col sm:justify-center  text-white">
 			<Router>
 				<Navbar />
 				<Routes>
 					<Route
 						path="/"
 						element={<HomePage />}
+					/>
+					<Route
+						path="/Order"
+						element={<Order />}
 					/>
 				</Routes>
 				<Footer />
