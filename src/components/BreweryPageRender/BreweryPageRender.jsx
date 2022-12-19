@@ -5,9 +5,9 @@ const BreweryPageRender = () => {
 	const location = useLocation();
 
 	return (
-		<div className="flex flex-col mt-56 justify-center items-center">
+		<div className="flex flex-col mt-10 sm:mt-56 justify-center items-center">
 			<h1 className='text-3xl font-semibold p-5'>{location.state.elmt.name}'s Informations</h1>
-			<div className="self-center text-white p-5 flex flex-col w-1/3 bg-amber-400 rounded-lg">
+			<div className="self-center text-white p-5 flex flex-col w-full sm:w-1/3 bg-amber-400 rounded-lg">
 				<p>
 					Name:{' '}
 					{location.state.elmt.name ? location.state.elmt.name : '--No name--'}
