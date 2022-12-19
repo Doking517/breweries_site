@@ -1,8 +1,10 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
+import BrewerieCard from '../BrewerieCard/BrewerieCard';
 
 const BrowseOurMenu = () => {
 	const [breweries, setBreweries] = useState(null);
+
 	let apiURL = 'https://api.openbrewerydb.org/breweries?per_page=50';
 
 	useEffect(() => {
@@ -12,13 +14,15 @@ const BrowseOurMenu = () => {
 			})
 			.then((data) => {
 				setBreweries(data);
-				console.log(breweries);
+			})
+			.catch((err) => {
+				throw err;
 			});
 	}, []);
 
 	return (
-		<div>
-			<h1 className="text-red-500">Browse our menu</h1>
+		<div className="flex text-white font-extrabold">
+			{breweries && <BrewerieCard breweries={breweries} />}
 		</div>
 	);
 };

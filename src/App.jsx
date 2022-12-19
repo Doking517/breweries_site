@@ -5,6 +5,7 @@ import Footer from './components/Footer/Footer';
 
 import Navbar from './components/Navbar/Navbar';
 import Order from './components/Order/Order';
+import BreweryPageRender from './components/BreweryPageRender/BreweryPageRender';
 
 const App = () => {
 	return (
@@ -19,6 +20,10 @@ const App = () => {
 					<Route
 						path="/Order"
 						element={<Order />}
+					/>
+					<Route
+						path="/Order/Render"
+						element={<BreweryPageRender />}
 					/>
 				</Routes>
 				<Footer />
